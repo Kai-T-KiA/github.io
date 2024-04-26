@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* 全体の背景カラーを変更 */
+body {
+    background-color:#F0F8FF;/* ★←好きな色に変更してOK */
+    /* font-family: '游明朝'; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* 自己紹介のところ(編集しない) */
+#line_imgandtext {
+    display: flex;
+}
+
+/* 画像(アイコン)部分(編集しない) */
+#icon{
+    margin-left: 10%;
+    /* margin-top: 30px; */
+    border-radius: 50%;
+    width: 384px;
+}
+
+/* 自己紹介(テキスト)部分 */
+#text {
+    color: #000066;/* ★←文字の色、自由な色にしてOK*/
+    margin-left: 10%;
+}
+
+
+/* ↓編集しない */
+#name {
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#info > p {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+/* ↑編集しない */
+
+
+/* 感想欄作成 */
+#commentbox {
+    /* ↓編集しない */
+    border-width: 3px;
+    border-style: dotted;
+    border-color: #000066;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-size: 20px;
+    /* ↑編集しない */
+
+    color: #000066; /* ★←感想の文字色、変更OK */
+}
